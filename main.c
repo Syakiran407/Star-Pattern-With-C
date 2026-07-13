@@ -13,9 +13,22 @@ void pattern1()
 	}
 }
 
+void pattern2()
+{
+	for (int j = 4; j >= 1; j--)
+	{
+		for (int i = 1; i <= j; i++)
+		{
+			printf("%d", i);
+		}
+		printf("\n");
+	}
+}
+
 int main()
 {
-	pattern1();
+	//pattern1();
+	pattern2();
 
 	return 0;
 }
