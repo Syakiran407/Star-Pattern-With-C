@@ -25,10 +25,27 @@ void pattern2()
 	}
 }
 
+void pattern3()
+{
+	//4
+	//43
+	//432
+	//4321
+
+	for (int j = 4; j >= 1; j--) {
+		for (int i = 4; i >= j; i--) {
+			printf("%d", i);
+		}
+		printf("\n");
+	}
+}
+
+
 int main()
 {
 	//pattern1();
-	pattern2();
+	//pattern2();
+	pattern3();
 
 	return 0;
 }
