@@ -40,12 +40,31 @@ void pattern3()
 	}
 }
 
+void pattern4()
+{
+	//4321
+	//432
+	//43
+	//4
+	for (int j = 1; j <= 4; j++)
+	{
+		for (int i = 4; i >= j; i--)
+		{
+			printf("%d", i);
+		}
+
+		printf("\n");
+	}
+
+}
+
 
 int main()
 {
 	//pattern1();
 	//pattern2();
-	pattern3();
+	//pattern3();
+	pattern4();
 
 	return 0;
 }
