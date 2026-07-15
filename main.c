@@ -2,6 +2,12 @@
 
 void pattern1()
 {
+
+	//1
+	//12
+	//123
+	//1234
+
 	for (int j = 1; j <= 4; j++)
 	{
 		for (int i = 1; i <= j; i++)
@@ -15,6 +21,12 @@ void pattern1()
 
 void pattern2()
 {
+
+	//1234
+	//123
+	//12
+	//1
+
 	for (int j = 4; j >= 1; j--)
 	{
 		for (int i = 1; i <= j; i++)
@@ -27,6 +39,7 @@ void pattern2()
 
 void pattern3()
 {
+
 	//4
 	//43
 	//432
@@ -46,13 +59,13 @@ void pattern4()
 	//432
 	//43
 	//4
+
 	for (int j = 1; j <= 4; j++)
 	{
 		for (int i = 4; i >= j; i--)
 		{
 			printf("%d", i);
 		}
-
 		printf("\n");
 	}
 
